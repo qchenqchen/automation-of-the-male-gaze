@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useResponse } from "@curi/react-dom";
+import Nav from "./components/Nav";
+import Page from "./components/Page";
 
-function App() {
+const App = () => {
+  let { response } = useResponse();
+  let { name, body: Body } = response;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav current={name} />
+      <Page>
+        <Body response={response} />
+      </Page>
+    </>
   );
-}
+};
 
 export default App;

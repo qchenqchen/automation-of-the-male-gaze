@@ -1,0 +1,4 @@
+[
+  "Our website often mentions Stable Diffusion, but what is it? Put simply, Stable Diffusion is one of the leading artificial intelligence algorithms for generating digital images. Alongside Stable Diffusion, there are other popular algorithms for generating AI images, such as DALLE-2 or Midjourney. Our website's research focuses more on Stable Diffusion; however, our conclusions can be applied universally to all drawing AI.",
+  "Stable Diffusion specifically works by divvying up the image generation process with a diffusion process, gradually improving the image until the result is close to the description of the prompt. Since this process is more efficient than other algorithms, there are a wealth of online resources in which you can find applications of Stable Diffusions. Many websites have their own Stable Diffusion algorithm that creates AI images. Popular examples of these websites include Dream studio, Nightcafe, and StarryAI."
+]
